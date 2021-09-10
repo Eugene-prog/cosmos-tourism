@@ -319,3 +319,139 @@ foreignObject {
   margin-right: 0;
   margin-left: 0;
 }
+
+.info {
+  background-image: url(../images/info-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.special-offer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.special-offer__item {
+  width: 500px;
+}
+
+.special-offer__item-box {
+  min-height: 400px;
+  margin-bottom: 25px;
+  border: 1px solid #fff;
+  flex-direction: column;
+  padding: 40px 75px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.special-offer__item-text {
+  font-size: 24px;
+  line-height: 29px;
+  width: 236px;
+  margin: 0 auto;
+}
+
+.special-offer__item-text span {
+  color: #cb0e0e;
+}
+
+.special-offer__old-price {
+  text-align: right;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.special-offer__old-price::before {
+  content: '';
+  position: absolute;
+  width: 68px;
+  height: 2px;
+  top: 7px;
+  right: 0;
+  background-color: #cb0e0e;
+  transform: rotate(15deg);
+}
+
+.special-offer__new-price {
+  font-size: 48px;
+  line-height: 57px;
+}
+
+.special__offer-btn {
+  width: 100%;
+}
+
+.services {
+  padding-bottom: 200px;
+}
+
+.services__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__box-list {
+  width: 620px;
+  margin-right: 80px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.services__list {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.services__list-title {
+  margin-bottom: 25px;
+}
+
+.services__list-item {
+  padding-left: 36px;
+  position: relative;
+}
+
+.services__discription {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.services__list-item::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  left: 0;
+  top: 4px;
+}
+
+.services__buttons {
+  width: 500px;
+}
+
+.services__btn {
+  width: 100%;
+}
+
+.services__btn-first {
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.services__btn-first::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 43px;
+  background-image: url(../images/photo.png);
+  width: 192px;
+  height: 150px;
+}
